@@ -7,13 +7,13 @@ This repo contains the code for an AI bot, for playing a game of Tak. <a href="h
 
 To make the bot play against itself call the following scripts in the same order:
 
-`./server.sh <PortNo> `
+`./scripts/server.sh <PortNo> `
 
 
-`./player1.sh <PortNo> `
+`./scripts/player1.sh <PortNo> `
 
 
-`./player2.sh <PortNo> `
+`./scripts/player2.sh <PortNo> `
 
 ## Algorithm
 TakBot uses a minimax tree to make decisions on the moves it wants to make in a given scenario. It rates all the possible future states it can see upto four moves deep within the Tree and then selects the move which maximises this utility function.
